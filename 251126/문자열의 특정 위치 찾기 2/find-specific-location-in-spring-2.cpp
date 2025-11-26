@@ -7,7 +7,7 @@ int main() {
     string a = "apple";
     string b = "banana";
     string c = "grape";
-    string d = "bluberry";
+    string d = "blueberry";
     string e = "orange";
 
     char word;
@@ -21,8 +21,6 @@ int main() {
             count++;
         }
     }
-
-
     // for (string k : array) {
     //     if (k.find(word) != string::npos) {
     //         cout << k << endl;
