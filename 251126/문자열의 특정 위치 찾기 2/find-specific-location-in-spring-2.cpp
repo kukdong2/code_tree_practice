@@ -15,12 +15,20 @@ int main() {
     int count = 0;
     string array[5] = { a,b,c,d,e };
     
-    for (string k : array) {
-        if (k.find(word) != string::npos) {
-            cout << k << endl;
+    for (string k : array){
+        if ((k[2]==word)||(k[3]==word)){
+            cout<<k<<endl;
             count++;
         }
     }
+
+
+    // for (string k : array) {
+    //     if (k.find(word) != string::npos) {
+    //         cout << k << endl;
+    //         count++;
+    //     }
+    // }
     cout << count;
     return 0;
 }
