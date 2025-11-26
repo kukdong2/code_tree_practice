@@ -1,4 +1,10 @@
-string a = "apple";
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Please write your code here.
+
+    string a = "apple";
     string b = "banana";
     string c = "grape";
     string d = "bluberry";
@@ -16,3 +22,5 @@ string a = "apple";
         }
     }
     cout << count;
+    return 0;
+}
